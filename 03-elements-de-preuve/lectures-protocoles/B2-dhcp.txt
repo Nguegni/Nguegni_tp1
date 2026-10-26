@@ -1,0 +1,69 @@
+
+
+
+VPCS> ip dhcp -x
+
+
+
+
+VPCS> 
+
+
+VPCS> ip dhcp
+
+DDORA IP 10.10.10.102/24 GW 10.10.10.1
+
+
+
+
+VPCS> 
+
+
+VPCS> show ip
+
+
+
+NAME        : VPCS[1]
+
+IP/MASK     : 10.10.10.102/24
+
+GATEWAY     : 10.10.10.1
+
+DNS         : 203.0.113.10  
+
+DHCP SERVER : 10.10.10.1
+
+DHCP LEASE  : 86398, 86400/43200/75600
+
+DOMAIN NAME : camtrust.lab
+
+MAC         : 00:50:79:66:68:03
+
+LPORT       : 20000
+
+RHOST:PORT  : 127.0.0.1:30000
+
+MTU         : 1500
+
+
+
+
+VPCS> show ip dhcp binding
+
+Bindings from all pools not associated with VRF:
+
+IP address          Client-ID/	 	    Lease expiration        Type
+
+		    Hardware address/
+
+		    User name
+
+10.10.10.101        ff32.39f9.b500.0200.    Oct 26 2026 01:29 AM    Automatic
+
+                    00ab.1113.30c3.ca99.
+
+                    d017.51
+
+10.10.10.102        0100.5079.6668.03       Oct 26 2026 01:32 AM    Automatic
+
+R-SIEGE#

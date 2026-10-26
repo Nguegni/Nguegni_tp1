@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<lab name="TP1" id="9c5878b1-5314-4192-92d0-b582548b31a3" version="1" scripttimeout="300" lock="0" author="Eric EVINA MBAHO">
+  <topology>
+    <nodes>
+      <node id="2" name="R-DLA" type="qemu" template="mikrotik" image="mikrotik-7.23.8" console="telnet" cpu="1" cpulimit="0" ram="256" ethernet="4" uuid="8f0fdd10-31ea-4b70-bba3-f90bb66a8205" qemu_options="-machine type=pc,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -display none -vga std -rtc base=utc" qemu_version="2.12.0" qemu_arch="x86_64" qemu_nic="e1000-82545em" delay="0" icon="Router-2D-Gen-White-S.svg" config="0" left="339" top="528">
+        <interface id="0" name="eth1" type="ethernet" network_id="3" />
+        <interface id="1" name="eth2" type="ethernet" network_id="4" />
+      </node>
+      <node id="3" name="PC-SIEGE" type="vpcs" template="vpcs" image="" ethernet="1" delay="0" icon="PC-2D-Desktop-Windows-S.svg" config="0" left="141" top="81">
+        <interface id="0" name="eth0" type="ethernet" network_id="7" />
+      </node>
+      <node id="4" name="CLIENT-LINUX" type="qemu" template="linux" image="linux-ubuntu-24.04-camtrust-client" console="telnet" cpu="1" cpulimit="0" ram="1024" ethernet="1" uuid="992c6023-5dd5-4594-8f82-2406f028ebf7" firstmac="00:50:00:00:04:00" qemu_options="-machine type=pc,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -rtc base=utc -cpu host" qemu_version="2.12.0" qemu_arch="x86_64" qemu_nic="virtio-net-pci" delay="0" icon="Server-2D-Linux-S.svg" config="0" left="126" top="228">
+        <interface id="0" name="e0" type="ethernet" network_id="6" />
+      </node>
+      <node id="6" name="R-FAI" type="qemu" template="vyos" image="vyos-2026.10.23-camtrust" console="telnet" cpu="1" cpulimit="0" ram="1024" ethernet="4" uuid="e433b631-00e4-4e55-b77a-ad04cbb6ca54" qemu_options="-machine type=pc,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -rtc base=utc -cpu host" qemu_version="8.2.1" qemu_arch="x86_64" qemu_nic="e1000" delay="0" icon="Router-2D-Gen-Dark-S.svg" config="0" left="699" top="342">
+        <interface id="0" name="eth0" type="ethernet" network_id="2" />
+        <interface id="1" name="eth1" type="ethernet" network_id="8" />
+      </node>
+      <node id="5" name="PC-DLA" type="vpcs" template="vpcs" image="" ethernet="1" delay="0" icon="PC-2D-Desktop-Generic-S.svg" config="0" left="750" top="537">
+        <interface id="0" name="eth0" type="ethernet" network_id="4" />
+      </node>
+      <node id="8" name="SW-SIEGE" type="qemu" template="viosl2" image="viosl2-camtrust-local" console="telnet" cpu="1" cpulimit="0" ram="768" ethernet="8" uuid="c711d026-1cb9-47f7-9180-91911c3f5cfb" qemu_options="-machine type=pc,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -rtc base=utc -cpu host" qemu_version="2.4.0" qemu_arch="x86_64" delay="0" icon="Switch-2D-L3-Generic-S.svg" config="0" left="339" top="171">
+        <interface id="0" name="Gi0/0" type="ethernet" network_id="1" />
+        <interface id="1" name="Gi0/1" type="ethernet" network_id="6" />
+        <interface id="2" name="Gi0/2" type="ethernet" network_id="7" />
+      </node>
+      <node id="9" name="R-SIEGE" type="qemu" template="vios" image="vios-camtrust-local" console="telnet" cpu="1" cpulimit="0" ram="512" ethernet="4" uuid="bee29d7d-c3f3-41bb-8ad4-e9496ecb1e2f" qemu_options="-machine type=pc,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -rtc base=utc -cpu host" qemu_version="2.4.0" qemu_arch="x86_64" delay="0" icon="Router-2D-Gen-White-S.svg" config="0" left="339" top="339">
+        <interface id="0" name="Gi0/0" type="ethernet" network_id="1" />
+        <interface id="1" name="Gi0/1" type="ethernet" network_id="2" />
+        <interface id="2" name="Gi0/2" type="ethernet" network_id="3" />
+      </node>
+      <node id="10" name="SRV-INTERNET" type="qemu" template="linux" image="linux-ubuntu-24.04-camtrust-server" console="telnet" cpu="1" cpulimit="0" ram="1024" ethernet="1" uuid="8b143ee6-a233-4f6f-8e8e-391bfbaf8e91" firstmac="00:50:00:00:0a:00" qemu_options="-machine type=pc,accel=kvm -serial mon:stdio -nographic -no-user-config -nodefaults -rtc base=utc -cpu host" qemu_version="2.12.0" qemu_arch="x86_64" qemu_nic="virtio-net-pci" delay="0" icon="Server-2D-Linux-S.svg" config="0" left="810" top="180">
+        <interface id="0" name="e0" type="ethernet" network_id="8" />
+      </node>
+    </nodes>
+    <networks>
+      <network id="1" type="bridge" name="Net-SW-SIEGEiface_0" left="401" top="216" visibility="0" icon="lan.png" />
+      <network id="2" type="bridge" name="Net-R-SIEGEiface_1" left="396" top="382" visibility="0" icon="lan.png" />
+      <network id="3" type="bridge" name="Net-R-SIEGEiface_2" left="396" top="382" visibility="0" icon="lan.png" />
+      <network id="4" type="bridge" name="Net-R-DLAiface_1" left="387" top="595" visibility="0" icon="lan.png" />
+      <network id="6" type="bridge" name="Net-CLIENT-LINUXiface_0" left="186" top="271" visibility="0" icon="lan.png" />
+      <network id="7" type="bridge" name="Net-PC-SIEGEiface_0" left="201" top="121" visibility="0" icon="lan.png" />
+      <network id="8" type="bridge" name="Internet-simule" left="699" top="186" visibility="0" icon="Cloud-2D-Blue-S.svg" />
+    </networks>
+  </topology>
+</lab>

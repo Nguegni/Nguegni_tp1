@@ -1,0 +1,52 @@
+[
+  {
+    "capture": "B1-arp.pcapng",
+    "frames": 12,
+    "malformed": 0
+  },
+  {
+    "capture": "B2-dhcp.pcapng",
+    "frames": 6,
+    "malformed": 0
+  },
+  {
+    "capture": "B3-dns.pcapng",
+    "frames": 12,
+    "malformed": 0
+  },
+  {
+    "capture": "B4-tcp.pcapng",
+    "frames": 26,
+    "malformed": 0
+  },
+  {
+    "capture": "C1-http.pcapng",
+    "frames": 10,
+    "malformed": 0
+  },
+  {
+    "capture": "C1-https.pcapng",
+    "frames": 23,
+    "malformed": 0
+  },
+  {
+    "capture": "C2-ftp.pcapng",
+    "frames": 27,
+    "malformed": 0
+  },
+  {
+    "capture": "C3-ssh.pcapng",
+    "frames": 66,
+    "malformed": 0
+  },
+  {
+    "capture": "C3-telnet.pcapng",
+    "frames": 95,
+    "malformed": 0
+  },
+  {
+    "capture": "C4-snmp.pcapng",
+    "frames": 541,
+    "malformed": 0
+  }
+]

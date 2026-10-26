@@ -1,0 +1,13 @@
+# Donnees privees et images de machines hors depot
+*.qcow2
+*.vmdk
+*.iso
+*.tar
+*.zip
+*.key
+*.pem
+*credentials*
+*ACCES*
+__pycache__/
+.qa/
+.env

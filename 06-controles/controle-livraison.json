@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "authors": [
+    "NGUEGNI ONGOLO Antoine Depadoux",
+    "NKODA Xavier"
+  ],
+  "expected_repository": "https://github.com/Nguegni/Nguegni_tp1",
+  "pdf_pages": 5,
+  "pdf_attachments": 32,
+  "pdf_grayscale_pages": 5,
+  "pcapng_validated": 10,
+  "known_secrets_found": 0,
+  "former_authors_found": 0,
+  "original_provenance_preserved": true,
+  "live_A7_revalidated_after_storage_interruption": false,
+  "issues": []
+}

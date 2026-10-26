@@ -1,0 +1,11 @@
+HTTP 200 bytes=10671 duration=0.122290
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 203.0.113.10:8080...
+* connect to 203.0.113.10 port 8080 from 10.10.10.101 port 34242 failed: Connection refused
+* Failed to connect to 203.0.113.10 port 8080 after 12 ms: Couldn't connect to server
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection
+curl: (7) Failed to connect to 203.0.113.10 port 8080 after 12 ms: Couldn't connect to server

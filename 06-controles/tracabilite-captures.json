@@ -1,0 +1,70 @@
+[
+  {
+    "file": "B1-arp.pcapng",
+    "modified_frames": 0,
+    "sha256_original": "014dd4cdbb01acd8411b033b9cb4af6ac1b35b6240dd5cb34ce22e62b41bbf88",
+    "sha256_distributed": "014dd4cdbb01acd8411b033b9cb4af6ac1b35b6240dd5cb34ce22e62b41bbf88"
+  },
+  {
+    "file": "B2-dhcp.pcapng",
+    "modified_frames": 0,
+    "sha256_original": "4e47b5d0255617b1b8bf8ef35beaa74bd0ac7155e39e16acf4b2449abc967e3d",
+    "sha256_distributed": "4e47b5d0255617b1b8bf8ef35beaa74bd0ac7155e39e16acf4b2449abc967e3d"
+  },
+  {
+    "file": "B3-dns.pcapng",
+    "modified_frames": 0,
+    "sha256_original": "524c428eef454ebba00d45cbe2435c4a4a0984236695eeb4b17c1ee1beb64262",
+    "sha256_distributed": "524c428eef454ebba00d45cbe2435c4a4a0984236695eeb4b17c1ee1beb64262"
+  },
+  {
+    "file": "B4-tcp.pcapng",
+    "modified_frames": 0,
+    "sha256_original": "356cf51336588498b60097c15bdb7ed37f3254d342ed9c3367dc5f7f3c161204",
+    "sha256_distributed": "356cf51336588498b60097c15bdb7ed37f3254d342ed9c3367dc5f7f3c161204"
+  },
+  {
+    "file": "C1-http.pcapng",
+    "frames": 10,
+    "modified_frames": 1,
+    "secret_occurrences_masked": 1,
+    "sha256_original": "e1bb71ac66f9fa2ee1ea1eda2626e0dbc4912650fe7f6100e4a4616f9321cc3e",
+    "sha256_distributed": "e1e66de29859aeb673e4de9f1c31e911f4032ec4e8d1aea3993fcf0051f434c4"
+  },
+  {
+    "file": "C1-https.pcapng",
+    "modified_frames": 0,
+    "sha256_original": "4fa6682e8c325b9a2782954314f21e4f4bd5d7bc7819486027a6f02441711359",
+    "sha256_distributed": "4fa6682e8c325b9a2782954314f21e4f4bd5d7bc7819486027a6f02441711359"
+  },
+  {
+    "file": "C2-ftp.pcapng",
+    "frames": 27,
+    "modified_frames": 1,
+    "secret_occurrences_masked": 1,
+    "sha256_original": "0ccce0960201cd8c351720155f42475b4e2b07d035004733989806955a4f0cdf",
+    "sha256_distributed": "9c84bb8c7fb957dce6e006792d79e248fe65cbc4b7fa12dfad061bf11a6eea83"
+  },
+  {
+    "file": "C3-telnet.pcapng",
+    "frames": 95,
+    "modified_frames": 3,
+    "secret_occurrences_masked": 1,
+    "sha256_original": "691d1c2b15e4fa31d1a516b2d1035f3a193388f15f6550c42be180b7973110a7",
+    "sha256_distributed": "cb4fcd8560311571552fa29900ea73f1be0a5e9ce7d63e9f242ae192df87d5fe"
+  },
+  {
+    "file": "C3-ssh.pcapng",
+    "modified_frames": 0,
+    "sha256_original": "efd05ebecc18ded08c3b8a90fd36650d73788c5fb7218ccd13fe61b3030b525f",
+    "sha256_distributed": "efd05ebecc18ded08c3b8a90fd36650d73788c5fb7218ccd13fe61b3030b525f"
+  },
+  {
+    "file": "C4-snmp.pcapng",
+    "frames": 541,
+    "modified_frames": 541,
+    "secret_occurrences_masked": 0,
+    "sha256_original": "e3b1fdfe1d6cf2b7548781b72df12b7cc1eeb04dfb2751e395858a81fd54792a",
+    "sha256_distributed": "feeb4ca045067761b936def6fec4ad75bc74c855ffbc83d0651073090c70bafe"
+  }
+]

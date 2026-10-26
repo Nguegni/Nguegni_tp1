@@ -1,0 +1,60 @@
+
+
+
+VPCS> pipe2 failed
+
+Bad command: "pipe2 failed". Use ? for help.
+
+
+
+
+VPCS> 
+
+
+VPCS> ip dhcp
+
+DDORA IP 10.20.10.199/24 GW 10.20.10.1
+
+
+
+
+VPCS> pipe2 failed
+
+Bad command: "pipe2 failed". Use ? for help.
+
+
+
+
+VPCS> 
+
+
+VPCS> show ip
+
+
+
+NAME        : VPCS[1]
+
+IP/MASK     : 10.20.10.199/24
+
+GATEWAY     : 10.20.10.1
+
+DNS         : 203.0.113.10  
+
+DHCP SERVER : 10.20.10.1
+
+DHCP LEASE  : 1799, 1800/900/1575
+
+DOMAIN NAME : camtrust.lab
+
+MAC         : 00:50:79:66:68:05
+
+LPORT       : 20000
+
+RHOST:PORT  : 127.0.0.1:30000
+
+MTU         : 1500
+
+
+
+
+VPCS> 
