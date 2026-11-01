@@ -1,0 +1,97 @@
+[
+  {
+    "fichier": "01-topologie.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "389c4aaf4b726ee5314bd11c6a64ec09bda95ca392690e9d09f9f653caf5db80"
+  },
+  {
+    "fichier": "02-vlan.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "a5bd573ee707a96a2dc2c847c0c618e6de56b341494fb220fcdfe65458d7a046"
+  },
+  {
+    "fichier": "03-trunk.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "00de3253ac52191a04b40b735120c2f3bc0f190082f1f558c2fbf27b4fb78b02"
+  },
+  {
+    "fichier": "04-config-trunk.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "651af60e1cdde5bad59ec1e7e44872651bbffc10b53b43fc4bfca1c65411b447"
+  },
+  {
+    "fichier": "05-config-guichet.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "b35c5f6f00c4f4d5f5220df77d08c423a6f1559cc837e655dcff69d774a78a71"
+  },
+  {
+    "fichier": "06-dhcp-snooping.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "8f6aec4c63049f0a84935b14e5758c8a34c124f29dab95d958fb301029539f88"
+  },
+  {
+    "fichier": "07-dai-etat.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "3426832d419d06342e84aa5b47bd54c91b3f20843007ae072e2893f641a260bb"
+  },
+  {
+    "fichier": "08-bindings-deux-clients.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "f6b250805ef91e79a16bbbb47a5fc35a4b985bf57206e6bdd660c218dc69e3e0"
+  },
+  {
+    "fichier": "09-ipsg-active.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "83ad7a55e5f0912b37457016e55a4299c787be3d01f5e781b304822ae4fb3cdc"
+  },
+  {
+    "fichier": "10-ipsg-client-echec.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "a425ed871121430446647ab99da5b10f353b87218cc0864b49e2218db42e1bd6"
+  },
+  {
+    "fichier": "11-client-retablissement.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "422ecba19ad439c7e9af37434abd56530b1a4d832fd7c006aba906479d7d4d29"
+  },
+  {
+    "fichier": "12-ipsg-retire.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "3384ef2ad9aadcc505991a0e393a27d4dbdd7142a3675977a1cb947e9a677981"
+  },
+  {
+    "fichier": "13-port-security-avant.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "474a831d0ec5940c646d64a2749831dc03309189bd314f8584717bc66dc85d3c"
+  },
+  {
+    "fichier": "14-port-security-apres-journal.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "27d2bdda67cc46cbf1f1a0a9a1a978423fec9003af297d585c544f20f13d8774"
+  },
+  {
+    "fichier": "15-deux-clients-ping.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "e1ba95a75a034ac6673d720b8b5feb3f4d4dac31bc24b1250b87bac8278d6e57"
+  },
+  {
+    "fichier": "16-bpduguard-configuration-racine-avant.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "94bd5f8e45cd345ddab59b01b0b52a10ec58c3a5e63e60bd586411ba8ce7757d"
+  },
+  {
+    "fichier": "17-bpduguard-journal.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "76077c6038f90713c1bf018fd0c09c9c142017d3f2c9af35e5402c5984a5b0c2"
+  },
+  {
+    "fichier": "18-bpduguard-etat-racine-apres.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "c6788c9dfca6dd497579b136bc88697f62a37bd8cb0cb10a1cdc1278ee4cae41"
+  },
+  {
+    "fichier": "19-sw-pirate-preparation.png",
+    "source": "Capture fournie par l’utilisateur dans ce chat, laboratoire Douala",
+    "sha256": "1c61eda0d065193680fe6d99989b09e1a7684f6e194501d758d11da64108a702"
+  }
+]
